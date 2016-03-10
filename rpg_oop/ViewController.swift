@@ -43,6 +43,7 @@ class ViewController: UIViewController {
             enemy = DevilWizard(startingHP: 60, attackPwr: 15)
         }
         enemyImage.hidden = false
+        enemyHPLbl.text = "\(enemy.hp) HP"
     }
     
     
