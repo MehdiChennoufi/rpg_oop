@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     var chestMsg: String?
     
     
-    // At the application start
+    // === AT THE START === 
     override func viewDidLoad() {
         super.viewDidLoad()
         player = Player(name: "DirtyLaundry21", hp: 110, attackPwr: 20)
